@@ -1,0 +1,136 @@
+/* General styles */
+body {
+  font-family: 'Inter';
+  background: #FFFFFF;
+  margin: 0;
+}
+
+/* Navbar styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 91px;
+  background: #E87500;
+  padding: 0 21px;
+}
+
+.navbar h1 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  color: #FFFFFF;
+}
+
+.navbar a {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 34px;
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+
+/* Subnav styles */
+.subnav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 92px;
+  background: #154734;
+}
+
+.subnav a {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 34px;
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+
+/* Projects container */
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 1662px;
+  margin: 40px auto;
+}
+
+/* Project card */
+.project-card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 251px;
+  background: #D9D9D9;
+  padding: 20px;
+}
+
+.project-card h2 {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 34px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.project-card .details {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.project-card .details div {
+  display: flex;
+  flex-direction: column;
+}
+
+.details .label {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+  color: #000000;
+}
+
+.details .value {
+  font-size: 28px;
+  font-weight: 300;
+  font-style: italic;
+  line-height: 34px;
+  color: #000000;
+}
+
+.view-request {
+  font-size: 36px;
+  font-weight: 200;
+  line-height: 44px;
+  color: #002DCE;
+  text-decoration: underline;
+  align-self: flex-start;
+  margin-top: auto;
+}
+
+.reject,
+.approve {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  color: #FFFFFF;
+  text-align: center;
+  width: 357px;
+  height: 78px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: auto;
+}
+
+.reject {
+  background: #000000;
+}
+
+.approve {
+  background: #32AF1D;
+}
